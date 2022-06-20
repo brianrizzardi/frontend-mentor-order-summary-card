@@ -1,0 +1,127 @@
+  * *:before, *:after {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+
+  body {
+    align-items: center;
+    background-image: url(images/pattern-background-desktop.svg);
+    display: flex;
+    font-family: 'Red Hat Display', sans-serif;
+    height: 100vh;
+    justify-content: center;
+    overflow: hidden;
+    width: 100vw;
+  }
+
+  .cancel {
+    color: hsl(224, 23%, 55%);
+    font-size: .8rem;
+    font-weight: 900;
+    text-decoration: none;
+  }
+
+  .cancel:hover {
+    color: hsl(223, 47%, 23%)
+  }
+
+  .change {
+    display: inline-block;
+    margin: auto 0 auto 50px;
+}
+
+  #change-link {
+    color: hsl(245, 75%, 52%);
+    font-size: .7rem;
+    font-weight: 700;
+  }
+
+  #change-link:hover {
+    color: hsl(224, 23%, 55%);
+  }  
+
+  .card {
+    background-color: white;
+    border-radius: 15px;
+    padding-bottom: 30px;
+    text-align: center;
+    width: 320px;
+  }
+
+  .description {
+    color: hsl(224, 23%, 55%);
+    font-size: .8rem;
+    font-weight: 700;
+    line-height: 1.5;
+    margin: 0 35px;
+}
+
+  h1 {
+    font-size: 1.4rem;
+    font-weight: 900;
+  }
+
+  .hero .hero-img {
+    border-radius: 15px 15px 0 0;
+    width: 320px;
+  }
+
+
+  .music-icon {
+    padding: 15px 15px 0;
+    width: 2.5rem;
+  }
+
+  p {
+    font-size: 1rem;
+  }
+
+  .pay-button {
+    background-color: hsl(245, 75%, 52%);
+    box-shadow: 0 5px 8px 3px hsl(224, 23%, 55%);
+    border: none;
+    border-radius: 10px;;
+    color: white;
+    font-family: 'Red Hat Display', sans-serif;
+    font-size: .8rem;
+    font-weight: 700;
+    margin: 0 auto 20px;
+    padding: 10px 0;
+    position: relative;
+    width: 260px;
+  }
+
+  .pay-button:hover {
+    background-color: hsl(224, 23%, 55%);
+  }
+
+  #pay-link {
+    text-decoration: none;
+  }
+
+  .plan {
+    background-color: hsl(225, 100%, 98%);
+    border-radius: 15px;
+    display: flex;
+    margin: 20px 30px;
+  }
+
+  #price {
+    color:hsl(224, 23%, 55%);
+    font-weight: 700;
+  }
+
+  .pricing-div {
+    display: inline-block;
+    padding-top: 6px;
+  }
+
+  .pricing-div p {
+    font-size: .8rem;
+  }
+
+  span {
+    font-weight: 900;
+  }
+  
